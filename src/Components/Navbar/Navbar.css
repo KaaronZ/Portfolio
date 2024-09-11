@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Brother Signature';
+    src: url('../../Resources/Fonts/BrotherSignature-7BWnK.otf') format('truetype'); /* Adjust the path to match your structure */
+  }
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--roboto);
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    box-sizing: border-box;
+    width: 65rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-background-color);
+
+  }
+  
+  .profile {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  
+  .profile-pic {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+  }
+  
+  .name {
+    margin-top: 0;
+    font-weight: 400;
+    font-family: 'Brother Signature';  
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-style: oblique;
+    opacity: 0.7;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu li {
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: var(--text-color);
+    margin-top: 3.5rem;
+    opacity: 0.85;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .menu li:hover{
+    color: var(--heading-color);
+    scale: 1.2;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .icons {
+    margin-top: auto;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .icons svg{
+    font-size: 2rem;
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+  }
+  .icons svg:hover{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+  }
